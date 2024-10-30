@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="pricing-section">
+        <h1> JAY'S TITLE 12</h1>
+        <p> Cancel <strong> or Change anytime.</strong></p>
+        
+        <div class="toggle-buttons">
+            <button class="toggle-btn active" id="monthly-btn" onclick="changePrices('monthly')">One-Time Gift2 </button>
+
+            <button class="toggle-btn" id="annual-btn" onclick="changePrices('annual')">Montly Gift</button>
+        </div>
+
+        <div class="pricing-cards">
+            <div class="card">
+                <h2>Support</h2>
+                <p class="price" id="support-price">$25/month</p>
+                <button class="support-btn">Support</button>
+                <ul>
+                    <li>Exclusive newsletter for supporters, sent every week from the newsroom</li>
+                </ul>
+            </div>
+            <div class="card recommended">
+                <h2>All-access digital</h2>
+                <p class="price" id="digital-price">$50/month</p>
+                <button class="support-btn">Support</button>
+                <ul>
+                    <li>Unlimited access to the app</li>
+                    <li>Ad-free reading on all your devices</li>
+                    <li>Exclusive newsletter for supporters</li>
+                    <li>Far fewer asks for support</li>
+                    <li>Unlimited access to the Feast App</li>
+                </ul>
+                <span class="badge">Recommended</span>
+            </div>
+            <div class="card">
+                <h2>Digital + print</h2>
+                <p class="price"><span id="print-price">$100/month</span></p>
+                <button class="support-btn">Support</button>
+                <ul>
+                    <li>The rewards from All-access digital</li>
+                    <li>Weekly print magazine delivered to your door</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
